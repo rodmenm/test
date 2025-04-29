@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:rodmenm:test:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:rodmenm:test:main#0",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "wlgjWmrDDNpKbj7xRL7gQKKLQcAfTWOdcHgE-ru1Eo1mhWvKehfOIfxQll5MPl3T1BHAAGkdqGeV4Fr3n64Lr4qVwkDta9qK7p4cAXTgtjfoCoFtFHmkDfzqo6WkDH7Wn8dEeKLO4yRWCdax2LJt_AlsETFC5hy4te8B-2a-E5fTa0-PX92devQx5qWMcVoqC_okBBpWmsrD_u3R9EPwcLDeB8lPzBp39WDzhX50IRHhV2eIVRaFnjnfcA-DiUbk7V-MrjB4nYwcLY2H7SQGgPfq7CwXqhkkyaJg5m4sBZJvvUs57XXRlgrWMzSA-Q0vu93bQl7K5pB5OFy4qSCjXQ",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/rodmenm/test/main/did.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:rodmenm:test:main#0"
+  ]
+}
